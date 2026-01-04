@@ -265,28 +265,17 @@ button:hover {
     
     flex-wrap: wrap;
     padding: 10px;
-    background-color: rgb(144, 179, 90);
-    /* animation: bgChange 2s infinite alternate; */
+    background-color: rgb(201, 204, 196);
+
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     gap: 40px;
-animation: bgChange 2s infinite alternate;
 }
 
-/* Animation colors */
-@keyframes bgChange{
-    0%{
-        background-color: #43899b;
-    }
-    50%{
-        background-color: #3498db;
-    }
-    100%{
-        background-color: #9b59b6;
-    }
-}
+
+
 
 .about-section .text{
     width: 45%;
@@ -389,7 +378,7 @@ color: white;
     align-items: center;
     justify-content: space-around;
     flex-wrap:wrap ;
-    
+    gap: 20px;
     text-align: center;
     background-color: #43899b;
     
@@ -397,7 +386,7 @@ color: white;
 }
 
 /* Animation colors */
-@keyframes bgChange{
+/* @keyframes bgChange{
     0%{
         background-color: #43899b;
     }
@@ -457,7 +446,9 @@ color:black ;
  
  .top{
     align-items: center;
- }
+ } */
+ 
+
 
 .footer-last{
     padding: 20px;
@@ -465,8 +456,39 @@ color:black ;
     background-color:cadetblue ;
  animation: bgChange 2s infinite alternate;
 }
+.footer .open{
+    width: 100%;
+    
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    
 
+}
+.footer-icons{
+    display: flex;
+    padding: 30px;
+    gap:20px ;
+}
+.open-cards{
+    width: 22.5%;
+    color: white;
+    padding: 50px 0;
+    
+}
+.open-cards ul li{
+    list-style: none;
+    gap: 20px;
+}
+.open-cards ul li a{
+    text-decoration:none ;
+    font-size: 20px;
+    color: #f5f0f0;
 
+}
+h3{
+    padding: 10px;
+}
 /* Animation colors */
 @keyframes bgChange{
     0%{
@@ -478,4 +500,98 @@ color:black ;
     100%{
         background-color: #a85ec5;
     }
+}
+
+@media (max-width:360px){
+.navbar{
+    justify-content: space-between;
+}
+    .navbar .icons-1{
+        font-size: 12px;
+    }
+.navbar ul li a{
+    
+    font-size: 4px;
+
+}
+.icons-2{
+    font-size: 10px;
+}
+.hero-section .img{
+    width: 90%;
+}
+
+.hero-section {
+    
+}
+.hero-section .text{
+    width: 90%;
+
+}
+.hero-section .text h1{
+    font-size: 5px;
+    padding: 10px;
+}   
+.hero-section .text h2{
+    font-size: 5px;
+    padding: 10px;
+}
+.hero-section .text p{
+    font-size: 15px;
+}
+.icons-3{
+    font-size: 5px;
+}
+.computer h2{
+    font-size: 15px;
+}
+.cards-close-close .cards-img{
+    width: 100%;
+
+}
+.cards-close-close .cards-img p{
+    font-size: 10px;
+    
+}
+.open-icons div{
+    font-size: 16px;
+}
+ .open{
+    
+    width: 100%;
+}
+.footer .open p{
+      font-size: 10px;
+}
+
+.work h4{
+    font-size: 12px;
+}
+.work h1{
+    font-size: 18px;
+    line-height: 23px;
+}
+.work p{
+    font-size: 15px;
+    line-height: 23px;
+}
+button{
+    padding: 7px 9px;
+}
+.about-section .text {
+width: 100%;
+}
+.about-section .text h1{
+font-size: 24px;
+}
+.about-section .text{
+    font-size: 14PX;
+}
+.open-cards{
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
 }
