@@ -19,12 +19,20 @@ body{
     flex-wrap: wrap;
     padding: 20px;
 
+<<<<<<< HEAD
     background-color:rgba(143, 173, 98, 0.911) ;
 gap: 20px;
 position: fixed;
     /* animation: bgChange 2s infinite alternate; */
+=======
+    gap: 20px;
+    position: fixed;
+    z-index: 1;
+    
+>>>>>>> 5cc0fee9fc771fe18df1228e6f524f6a0a1d4bda
     display: flex;
     align-items: center;
+    background-color:rgba(255, 255, 255, 0.301) ;
     justify-content: space-evenly;
     color: #050505;
     z-index: 1;
@@ -557,6 +565,7 @@ button{
     flex-direction: column;
     padding: 10px;
 }
+<<<<<<< HEAD
 .project-section{
     width: 100%;
     flex-direction: column;
@@ -567,6 +576,10 @@ button{
 .project-section p{
     font-size: 10px;
 }
+=======
+
+
+>>>>>>> 5cc0fee9fc771fe18df1228e6f524f6a0a1d4bda
 
 .computer h2{
     font-size: 15px;
